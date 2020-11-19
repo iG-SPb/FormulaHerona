@@ -1,0 +1,9 @@
+# Default ignored files
+.idea/
+out/
+*.iml
+/shelf/
+/workspace.xml
+
+# Project exclude paths
+/target/
