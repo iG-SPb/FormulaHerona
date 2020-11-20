@@ -39,15 +39,9 @@ public class Functions {
     }
 
     public static double areaTriangle(int sideA, int sideB, int sideC) {
-        double a;
-        double b;
-        double c;
         double p;
-        a = sideA;
-        b = sideB;
-        c = sideC;
-        p = 0.5f * (a + b + c);
-        return Math.sqrt(p * (p - a) * (p - b) * (p - c));
+        p = 0.5 * ((double) sideA + (double) sideB + (double) sideC);
+        return Math.sqrt(p * (p - (double) sideA) * (p - (double) sideB) * (p - (double) sideC));
     }
 
     public static void main(String[] args) {
