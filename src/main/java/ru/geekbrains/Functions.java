@@ -3,7 +3,7 @@ package ru.geekbrains;
 import java.util.Scanner;
 
 /**
- * Formula Gerona
+ * Formula Herona
  */
 public class Functions {
     private static final Scanner SCANNER = new Scanner(System.in);
@@ -15,7 +15,7 @@ public class Functions {
     private static final String colNo = "\u001B[0m";
 
 
-    // human turn
+    // input data
     public static void dataInput() {
         do {
             System.out.print("Введите значения (целые числа) 3-х сторон треугольника через пробел >>> ");
